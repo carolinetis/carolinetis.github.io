@@ -248,7 +248,7 @@ function renderGrid(idgiven,offs) {
 
 //listeners that call renderGrid() when the page is loaded or resized
 var offset1=0;
-var offset2=850;
+var offset2=450;
 window.addEventListener("load", renderGrid("grid_container", offset1), false);
 window.addEventListener("resize", renderGrid("grid_container", offset1), false);
 window.addEventListener("load", renderGrid("grid_container2", offset2), false);
